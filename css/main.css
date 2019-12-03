@@ -1,0 +1,86 @@
+h1 {
+  font-family: "Unica One", sans-serif;
+  position: absolute;
+  z-index: 1000;
+  color: #fff;
+  top: 1.6em;
+  left: 30px;
+}
+
+#narwhal-body {
+  animation: span .5s linear forwards;
+  stroke-dasharray: 1917.786px;
+  stroke-dashoffset: 1917.786px;
+}
+
+#rainbow-violet {
+  animation: span .5s linear forwards;
+  stroke-dasharray: 1917.786px;
+  stroke-dashoffset: 1917.786px;
+}
+
+#rainbow-indigo {
+  animation: span .5s linear forwards;
+  stroke-dasharray: 1917.786px;
+  stroke-dashoffset: 1917.786px;
+}
+
+#rainbow-blue {
+  animation: span .5s linear forwards;
+  stroke-dasharray: 1917.786px;
+  stroke-dashoffset: 1917.786px;
+}
+
+#rainbow-green {
+  animation: span .5s linear forwards;
+  stroke-dasharray: 1917.786px;
+  stroke-dashoffset: 1917.786px;
+}
+
+#rainbow-yellow {
+  animation: span .5s linear forwards;
+  stroke-dasharray: 1917.786px;
+  stroke-dashoffset: 1917.786px;
+}
+
+#rainbow-orange {
+  animation: span .5s linear forwards;
+  stroke-dasharray: 1917.786px;
+  stroke-dashoffset: 1917.786px;
+}
+
+#rainbow-red {
+  animation: span .5s linear forwards;
+  stroke-dasharray: 1917.786px;
+  stroke-dashoffset: 1917.786px;
+}
+
+#narwhal-eye {
+  animation: fade .5s linear forwards;
+  opacity: 0;
+}
+
+@keyframes fade {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+@keyframes span {
+
+  0% {
+
+    stroke-dashoffset: 1909.06px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
